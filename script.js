@@ -5,7 +5,7 @@ var doge = document.getElementById("dogecoin");
 
 var settings = {
   "async": true,
-  "crossDomain": true,  // fixed typo from "scrossDomain"
+  "crossDomain": true,  
   "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,dogecoin&vs_currencies=usd",
   "method": "GET",
   "headers": {}
